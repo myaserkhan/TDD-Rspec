@@ -13,7 +13,7 @@ describe Solver do
 
   context 'When testing a factorial method' do
     it 'should raise an error when a negative integer is given' do
-      expect{ @solver.factorial(-2) }.to raise_error('Only positive numbers are allowed')
+      expect { @solver.factorial(-2) }.to raise_error('Only positive numbers are allowed')
     end
 
     it 'should return 1 when given 0' do
