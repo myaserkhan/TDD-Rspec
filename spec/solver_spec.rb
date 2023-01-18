@@ -19,5 +19,9 @@ describe Solver do
     it 'should return 1 when given 0' do
       expect(@solver.factorial(0)).to eql 1
     end
+
+    it 'should return factorial of the given number' do
+      expect(@solver.factorial(5)).to eq(120)
+    end
   end
 end
