@@ -24,4 +24,10 @@ describe Solver do
       expect(@solver.factorial(5)).to eq(120)
     end
   end
+
+  context 'When testing a reverse method' do
+    it 'should return olleh when given hello' do
+      expect(@solver.reverse('hello')).to eql 'olleh'
+    end
+  end
 end
