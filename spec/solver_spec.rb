@@ -15,5 +15,9 @@ describe Solver do
     it 'should raise an error when a negative integer is given' do
       expect { @solver.factorial(-2) }.to raise_error ('Only positive numbers are allowed')
     end
+
+    it 'should return 1 when given 0' do
+      expect(@solver.factorial(0)).to eql 1
+    end
   end
 end
