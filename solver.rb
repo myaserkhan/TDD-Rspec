@@ -5,4 +5,8 @@ class Solver
 
     factorial(number - 1) * number
   end
+
+  def reverse(string)
+    string.reverse
+  end
 end
